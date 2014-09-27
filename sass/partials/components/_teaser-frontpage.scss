@@ -116,6 +116,7 @@
 .summits-list,
 .sprint-list {
   ul {
+    margin-left: 2%;
     list-style-type: circle;
     padding-left: 4%;
     li {
@@ -145,3 +146,8 @@
 .teaser-footer {
   padding-bottom: 2rem;
 }
+
+.teaser-header-inner-wrapper {
+  margin-bottom: 1rem;
+}
+

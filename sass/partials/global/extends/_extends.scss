@@ -1,8 +1,18 @@
+%copy-padding {
+  @include breakpoint(max-width ($large-viewport - 1)) {
+    padding: {
+      left: 2%;
+      right: 2%;
+    }
+  }
+}
+
 %p {
   color: $text-color-dark;
   font-family: "SourceSansProRegular", Helvetica, sans-serif;
   line-height: $ms-norm * 1.25;
   margin-bottom: .5rem;
+  @extend %copy-padding;
 }
 
 %a {
